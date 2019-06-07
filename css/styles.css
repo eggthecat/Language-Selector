@@ -1,0 +1,15 @@
+#navbar {
+  overflow: hidden;
+  background-color: #ECEDF9;
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar a  {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 18px;
+  text-decoration: none;
+}
