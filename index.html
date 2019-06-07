@@ -21,7 +21,50 @@
       <header>
       <h1>codificação shule</h1>
       </header>
-
+      <form id="formOne">
+       <div class="jumbotron">
+         <div class="form-group">
+           <label for="name"></label>
+           <input id="name" class="form-control" type="text">
+         </div>
+       </div>
+       <div class="form-group">
+         <label for="color">What is your favorite color?</label>
+         <input id="color" class="form-control" type="color">
+       </div>
+       <div class="form-group">
+         <label for="drink">What is your favorite drink</label>
+         <select class="form-control" id="beverage">
+           <option value="coffee">Coffee</option>
+           <option value="tea">Tea</option>
+           <option value="kombucha">Kombucha</option>
+           <option value="water">Water</option>
+         </select>
+       </div>
+       <br>
+       <label for="iceCream">What ice-cream do you prefer</label>
+       <div class="radio">
+         <label>
+           <input type="radio" name="flavor" value="chocolate" checked>
+           Chocolate
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="flavor" value="vanilla">
+           Vanilla
+         </label>
+       </div>
+       <div class="radio">
+         <label>
+           <input type="radio" name="flavor" value="cookiesandcream">
+           Cookies & Cream
+         </label>
+       </div>
+       <div class="button">
+         <button class="btn btn-success" id="button1">Submit</button>
+       </div>
+      </form>
     </div>
   </body>
 </html>
