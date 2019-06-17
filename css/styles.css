@@ -13,3 +13,10 @@
   padding: 18px;
   text-decoration: none;
 }
+
+#cole{
+  float: left;
+  width: 20%;
+  height: 20%
+  opacity: 0.5;
+}

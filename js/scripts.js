@@ -15,14 +15,14 @@ $(document).ready(function () {
 
     console.log(score);
 
-    if (score < 12) {
-      alert('you\'re alright');
-    } else if (score > 12 && 16 > score) {
-      alert('STOP WASTING MONEY');
-    } else if (score > 17 && 22 > score) {
-      alert('e');
+    if (score < 8) {
+      alert('Consider Ruby, Python, and Javascript in all locations');
+    } else if (score > 7 && 15 > score) {
+      alert('Consider Ruby in Grand Canyon');
+    } else if (score > 15 && 22 > score) {
+      alert('Consider Python in Catalina');
     } else if (score > 22 && 29 > score) {
-      alert('Prince Status');
+      alert('Consider Javascript in Dead Horse');
     };
   });
 });
