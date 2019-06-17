@@ -13,3 +13,11 @@
   padding: 18px;
   text-decoration: none;
 }
+
+
+background {
+  background-image: manOnMountain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
