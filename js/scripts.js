@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $('form#dating').submit(function (event) {
+  $('form#coding').submit(function (event) {
     event.preventDefault();
     var office = parseInt($('#office').val());
     var beverage = parseInt($('#beverage').val());
