@@ -29,5 +29,34 @@
 }
 
 #programz {
-  display: hidden;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: none;
+  }
+
+#program1{
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: none;
+  }
+
+#program2{
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: none;
+  }
+#program3{
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  }
+#programz
+p  {
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-decoration-line: none;
 }

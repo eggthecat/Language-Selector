@@ -16,13 +16,27 @@ $(document).ready(function () {
     console.log(score);
 
     if (score < 8) {
-      alert('Consider Ruby, Python, and Javascript in all locations');
+      $("#program1").show();
+      $("#program1").hide();
+      $("#program1").hide();
+      // alert('Consider Ruby, Python, and Javascript in all locations');
     } else if (score > 7 && 15 > score) {
-      alert('Consider Ruby in Grand Canyon');
+      $("#program2").show();
+      $("#program1").hide();
+      $("#program1").hide();
     } else if (score > 15 && 22 > score) {
-      alert('Consider Python in Catalina');
+      $("#program3").show());
+      $("#program1").hide();
+      $("#program1").hide();
     } else if (score > 22 && 29 > score) {
-      alert('Consider Javascript in Dead Horse');
+      $("#program1").show());
+      $("#program2").show();
+      $("#program3").show();
     };
   });
 });
+
+
+// alert('content')
+// show("content")   // XXX:
+// $("")
