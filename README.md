@@ -1,6 +1,6 @@
 # _Language Chooser_
 
-# _PLEASE GOTO "GH-PAGES" BRANCH FOR MOST RECENT VERSION OF PROJECT AVAILABLE IN LINK_
+# _https://eggthecat.github.io/Language-Selector/_
 
 #### _An app that allows a person to decide which coding program they would enjoy, 2019_
 
