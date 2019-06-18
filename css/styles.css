@@ -14,12 +14,48 @@
   text-decoration: none;
 }
 
-#cole{
+#cole {
   float: left;
   width: 20%;
   height: 20%
   opacity: 0.5;
 }
+
+#base {
+  float: right;
+  width: 20%;
+  height: 20%
+  opacity: 0.5;
+}
+
+#dog {
+  float: left;
+  width: 20%;
+  height: 20%
+  opacity: 0.5;
+}
+
+#no{
+  float: left;
+  width: 20%;
+  height: 20%
+  opacity: 0.5;
+}
+
+#base2 {
+  float: right;
+  width: 20%;
+  height: 20%
+  opacity: 0.5;
+}
+
+  #joy{
+    float: left;
+    width: 20%;
+    height: 20%
+    opacity: 0.5;
+  }
+
 
 #last {
   font-family: 'Roboto Mono', monospace;
