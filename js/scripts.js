@@ -1,5 +1,6 @@
 $(document).ready(function () {
   $('form#coding').submit(function (event) {
+    event.preventDefault();
     var office = parseInt($('#office').val());
     var beverage = parseInt($('#beverage').val());
     var pet = parseInt($('#pet').val());
@@ -13,23 +14,22 @@ $(document).ready(function () {
 
     if (score < 8) {
       $("#program1").show();
-      $("#program1").hide();
-      $("#program1").hide();
+      $("#program2").hide();
+      $("#program3").hide();
     } else if (score > 7 && 15 > score) {
       $("#program2").show();
       $("#program1").hide();
-      $("#program1").hide();
+      $("#program3").hide();
     } else if (score > 15 && 22 > score) {
-      $("#program3").show());
+      $("#program3").show();
       $("#program1").hide();
-      $("#program1").hide();
-    } else  (score > 22 && 29 > score) {
-      $("#program1").show());
+      $("#program2").hide();
+    } else if (score > 22 && 29 > score) {
+      $("#program1").show();
       $("#program2").show();
       $("#program3").show();
     };
   });
-  event.preventDefault();
 });
 
 
