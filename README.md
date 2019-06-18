@@ -1,5 +1,7 @@
 # _Language Chooser_
 
+# _PLEASE GOTO "GH-PAGES" BRANCH FOR MOST RECENT VERSION OF PROJECT AVAILABLE IN LINK_
+
 #### _An app that allows a person to decide which coding program they would enjoy, 2019_
 
 #### By _**Dominic Montelongo**_
